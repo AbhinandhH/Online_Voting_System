@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image:url("https://ichef.bbci.co.uk/news/976/cpsprodpb/1E64/production/_96208770_vote.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+nav{
+	background-color:darkgreen;
+	font-size:25px;
+	color:White;
+	display:flex;
+	justify-content:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+nav a{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+} 
+nav a:hover{
+	color:black;
+}
+.form-container nav a{
+	background-color:#62B6B7;
+	font-size:25px;
+	color:black;
+	justify-content:center;
+}
+.form-container{
+	background-color:#FAD6A5;
+	font-size:20px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:5%;
+	margin-top:2%;
+	border-radius:20px;
+	margin-bottom:1%;
+}
+.form-container input{
+	width:98%;
+	height:30px;
+    font-size:25px;
+	text-align:center;
+	border-radius:30px;
+}
+.form-container button{
+	width:20%;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	margin-left:40%;
+	margin-top:3%;
+	border-radius:30px;
+}
+.form-container a{
+	margin-left:220px;
+	margin-top:50%;
+	color:black;
+}
+.form-container a:hover{
+	color:red;
+}
+.about{
+	opacity:0.9;
+}
+.about p{
+	opacity:0.9;
+	font-size:35px;
+	color:black;
+	margin-right:10%;
+	margin-left:60%;
+}
+.developer{
+	margin-left:70px;
+	margin-top:10%;
+}
+.adminpageform{
+	background-color:orange;
+	font-size:28px;
+	color:red;
+	width:25%;
+	display:flex;
+	justify-content:center;
+	margin-left:55%;
+	margin-top:10%;
+	border-radius:10px;
+}
+.adminpageform a:hover{
+	color:yellow;
+}
+.checktable{
+	font-size:30px;
+	background-color:#dee281;
+	height:92vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.checktable img{
+	height:100px;
+	width:100px;
+}
+.checktable td,th{
+	padding:10px 60px;
+}
+.voted{
+	background-color:red;
+	font-size:50px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:25%;
+	margin-top:20%;
+	border-radius:20px;
+}
+.voted form a{
+	align-items:center;
+}
+.form-container select{
+	background-color:#FAD6A5;
+	font-size:20px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:5%;
+	margin-top:2%;
+	border-radius:20px;
+	margin-bottom:1%;
+}
+
+
+
+
+
+
+
